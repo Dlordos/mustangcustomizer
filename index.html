@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Inner Mustang Mobile</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/carousel.css" />
+	<link rel="stylesheet" href="css/site.css" />
+	<script src="js/modernizr.custom.63775.js"></script>
+</head>
+<body>
+	<header>
+		<section class="section-video">
+			<div class="videoWrapper">
+				<iframe width="100%" height="100%" src="http://www.youtube.com/embed/2umKjdahqjI" frameborder="0" allowfullscreen></iframe>
+		</section>
+			<div class="billboard-text">
+				<h1 class="billboard-banner">
+					<img src="img/banner.png" alt="" />
+				</h1>
+				<h2 class="billboard-h2">Inner Mustang Mobile App</h2>
+			</div>
+
+	</header>
+	<div class="download-app-wrapper">
+		<section class="download-app-section">
+			<div class="cf">
+				<img src="img/iphone.png" alt="" />
+				<h3>We launched Customizer on ford.com to give people a shot at creating the Mustang of their dreams. But we didn't want to stop at just a website.</h3>
+				<p>We created a mobile app that had just as many options and features that were offered by the site. This all-in social experience rewarded fans with points for building cars, sharing them and challenging friends to battles – all part of the game. If they wanted to up the ante and earn even more points, they could add a wager, talk a little trash and earn some badges. Earning points toward your total meant more entries into the Battle for Your Dream Mustang contest and more chances to win the exact car you built on Customizer.</p>
+			</div>
+
+			<dl>
+				<dt>Download the app</dt>
+				<dd class="apple"><a href="https://itunes.apple.com/us/app/mustang-customizer/id466530587?mt=8" target="_blank">Mac App Store</a></dd>
+				<dd class="google"><a href="https://play.google.com/store/apps/details?id=com.ford.mustangcustomizer&hl=en" target="_blank">Google player</a></dd>
+			</dl>
+
+		</section>
+	</div>
+	<div>
+		<section class="carousel-section">
+			<div class="carousel">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<img src="img/carousel/slide1.png" />
+						</li>
+						<li>
+							<img src="img/carousel/slide2.png" />
+						</li>
+						<li>
+							<img src="img/carousel/slide3.png" />
+						</li>
+						<li>
+							<img src="img/carousel/slide4.png" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div>
+		<section class="drift-section cf">
+			<div class="drift-tire cf"></div>
+			<div class="drift-content cf">
+				<div class="drift-content-hack">
+					<h5>Mustang Drift Challenge</h5>
+				<p>We also added a drift racing game where people could choose a track and race their customized Mustang against Facebook friends.</p>
+				</div>
+
+				<img src="img/ios-game.png" width="50%" alt="" />
+			</div>
+		</section>
+	</div>
+	<footer>
+		<section class="footer-section">
+			<div class="stats-wrapper">
+				<h4>The Results</h4>
+				<ul class="stats">
+					<li>
+						<img src="img/circle-mustang.png" alt="" />
+						<h6>Cars Created on the App</h6>
+						<span>1,400,000</span>
+					</li>
+					<li>
+						<img src="img/circle-phone.png" alt="" />
+						<h6>Visit to the App</h6>
+						<span>3,400,000</span>
+					</li>
+					<li>
+						<img src="img/circle-facebook.png" alt="" />
+						<h6>Added Facebook fans in one Year</h6>
+						<span>2,600,000</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script>
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			animation: "fade",
+			slideshow: false
+		});
+
+		$('body').addClass("body-fadeIn");
+
+		function isScrolledIntoView(elem) {
+			var docViewTop = $(window).scrollTop();
+			var docViewBottom = docViewTop + $(window).height();
+
+			var elemTop = $(elem).offset().top;
+			var elemBottom = elemTop + $(elem).height();
+
+				return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+		}
+
+		$(window).scroll( function() {
+			if(isScrolledIntoView($(".drift-content img"))) {
+				if($(".drift-content img").css("left") > "-500") {
+					$(".drift-content img").stop().animate({
+						left: -215
+					}, 300);
+					$(".drift-tire").stop().delay(500).animate({
+						opacity: "1"
+					}, 1000);
+				}
+			}
+		});
+
+
+	});
+	window.addEventListener("load",function() {
+		setTimeout(function(){
+			window.scrollTo(0, 1);
+		}, 0);
+	});
+
+</script>
+</body>
+</html>
