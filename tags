@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+H.I	js/modernizr.custom.63775.js	4;"	f	line:4
+I.J	js/modernizr.custom.63775.js	4;"	f	line:4
+I.K	js/modernizr.custom.63775.js	4;"	f	line:4
+I.e.input	js/modernizr.custom.63775.js	4;"	f	line:4
+a.addSlide	js/jquery.flexslider-min.js	40;"	f	line:40
+a.animateSlides	js/jquery.flexslider-min.js	31;"	f	line:31
+a.canAdvance	js/jquery.flexslider-min.js	32;"	f	line:32
+a.doMath	js/jquery.flexslider-min.js	37;"	f	line:37
+a.flexAnimate	js/jquery.flexslider-min.js	27;"	f	line:27
+a.getTarget	js/jquery.flexslider-min.js	33;"	f	line:33
+a.pause	js/jquery.flexslider-min.js	31;"	f	line:31
+a.play	js/jquery.flexslider-min.js	32;"	f	line:32
+a.removeSlide	js/jquery.flexslider-min.js	40;"	f	line:40
+a.setProps	js/jquery.flexslider-min.js	33;"	f	line:33
+a.setup	js/jquery.flexslider-min.js	34;"	f	line:34
+a.update	js/jquery.flexslider-min.js	39;"	f	line:39
+a.wrapup	js/jquery.flexslider-min.js	31;"	f	line:31
+b	js/jquery.flexslider-min.js	12;"	v	line:12
+bind	js/modernizr.custom.63775.js	4;"	m	line:4
+canvas	js/modernizr.custom.63775.js	4;"	f	line:4
+canvastext	js/modernizr.custom.63775.js	4;"	f	line:4
+d	js/jquery.flexslider-min.js	24;"	v	line:24
+d	js/modernizr.custom.63775.js	4;"	f	line:4
+d.fn.flexslider	js/jquery.flexslider-min.js	42;"	f	line:42
+draganddrop	js/modernizr.custom.63775.js	4;"	f	line:4
+flexboxlegacy	js/modernizr.custom.63775.js	4;"	f	line:4
+flexslider	js/jquery.flexslider-min.js	6750311;"	f	line:6750311
+g	js/jquery.flexslider-min.js	23;"	f	line:23
+geolocation	js/modernizr.custom.63775.js	4;"	f	line:4
+hashchange	js/modernizr.custom.63775.js	4;"	f	line:4
+history	js/modernizr.custom.63775.js	4;"	f	line:4
+hsla	js/modernizr.custom.63775.js	4;"	f	line:4
+indexedDB	js/modernizr.custom.63775.js	4;"	f	line:4
+isScrolledIntoView	index.html	115;"	f	line:115
+postmessage	js/modernizr.custom.63775.js	4;"	f	line:4
+rgba	js/modernizr.custom.63775.js	4;"	f	line:4
+split.inputtypes	js/modernizr.custom.63775.js	4;"	f	line:4
+touch	js/modernizr.custom.63775.js	4;"	f	line:4
+webgl	js/modernizr.custom.63775.js	4;"	f	line:4
+websockets	js/modernizr.custom.63775.js	4;"	f	line:4
+websqldatabase	js/modernizr.custom.63775.js	4;"	f	line:4
+window.Modernizr	js/modernizr.custom.63775.js	4;"	f	line:4
+window.Modernizr.D	js/modernizr.custom.63775.js	4;"	f	line:4
+window.Modernizr.E	js/modernizr.custom.63775.js	4;"	f	line:4
+window.Modernizr.F	js/modernizr.custom.63775.js	4;"	f	line:4
+window.Modernizr.G	js/modernizr.custom.63775.js	4;"	f	line:4
+window.Modernizr.H	js/modernizr.custom.63775.js	4;"	f	line:4
